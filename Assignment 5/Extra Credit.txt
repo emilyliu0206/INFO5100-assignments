@@ -1,0 +1,11 @@
+Result: 6
+
+1. addCount = 0, i = 3, list = null, A.i = 0
+2. list [1, 2, 3]
+3. b.addCount += c.size() --- 3
+   b.addCount++
+   b.addCount++
+   b.addCount++
+4. b.getAddCount() + b.getI()
+   6                 0
+5. return 6

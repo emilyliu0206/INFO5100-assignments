@@ -1,0 +1,12 @@
+Final
+Final is a keyword, used to apply restrictions on class, method or variable.
+Final class cannot be inherited, final method cannot be overridden, and final variable cannot be changed.
+
+in Java 8, they have introduced effectively final variables. Those variables are not declared as final but never got changed.
+After initialization, those variables are effectively final. Especially for variables in Lambdas, they have to be final or
+effectively final.
+
+Finally
+Finally is a block, always executes when the try block exits. Finally block will be executed even if an unexpected exception occurs.
+Allows programmers to avoid having cleanup code accidentally bypassed by a return, continue or break.
+
