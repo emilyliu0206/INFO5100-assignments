@@ -1,0 +1,5 @@
+ Q:Write two differences between ArrayList and LinkedList.
+
+ A:
+ 1. When it comes to getting the value , we use index in ArrayList, but in LinkedList, we use the pointer of the piror element.
+ 2. The time complexity of adding or removing elements is O(n) in ArrayList, but it is O(1) in LinkedList.
